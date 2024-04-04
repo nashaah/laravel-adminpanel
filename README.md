@@ -1,2 +1,2 @@
-# laravel-adminpanel
-A simple admin dashboard made using the Laravel framework using a MySQL relational database
+# MySQL Database
+Please import this database first prior to running the Laravel project.
