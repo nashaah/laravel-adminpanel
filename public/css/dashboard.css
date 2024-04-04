@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root{
+    --blue-color: #044CA4;
+    --gray-color: #B8B8B8;
+    --bg-white: #F3F4F6;
+}
+
+*{
+    margin: 0 0 0 8%;
+    padding: 0;
+    font-family: 'Hind', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--bg-white);
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.statusmessage{
+    border: 1.5px solid #8FC641;
+    background: #cee1b1;
+    padding: 1.5%;
+    margin: 1rem 1rem -3rem 10%;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.content{
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    height: 100vh;
+}
+
+.ordertable{
+    background: white;
+    padding: 2%;
+    border-radius: 1rem;
+    width: 50%
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2%;
+    gap: 3%;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    gap: 3%;
+}
+.bottom{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2%;
+    text-align: center;
+}
+
+
+.bottom h3 .rev{
+    font-size: 2rem;
+}
+
+.summary a{
+    color: var(--blue-color);
+    text-decoration: underline;
+}
+
+.summary a:hover{
+    color:#3f74b6;
+}
+
+.ordertitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ordertitle a{
+    margin-right: 1%;
+}
+
+.bestsellers{
+    background: white;
+    padding: 2%;
+    border-radius: 1rem;
+    width: 50%;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0 1%;
+}
+
+.besttable .ProductName{
+    text-align: left;
+}
+.besttable .TotalSales{
+    text-align: right;
+}
+
+.tablerow{
+    background: #EBEBEB;
+}
+
+td{
+    padding: 2%;
+}
+
+td:first-child,
+th:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+td:last-child,
+th:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+.info{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2%;
+    width: 100%;
+}
+
+.info h2{
+    font-size: 1.15rem;
+}
+
+h3{
+    color: #B8B8B8;
+    /* background-color: #646464; */
+    font-size: 2rem;
+    border-spacing: 0 1%;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.info h3:hover{
+    color: var(--blue-color);
+    
+}

@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+
+:root {
+    --blue-color: #044ca4;
+    --gray-color: #b8b8b8;
+    --bg-white: #f3f4f6;
+    --lightblue-color: #98b3da;
+    --lightgray-color: #ebebeb;
+    --red-color: #df3a01;
+}
+
+* {
+    margin: 0 0 0 8%;
+    padding: 0;
+    font-family: "Hind", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg-white);
+}
+
+.content {
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    height: 100vh;
+}
+
+.back {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.back a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: var(--blue-color);
+}
+
+.back i {
+    margin-right: -0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.addinfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #737373;
+    margin-bottom: 1rem;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+tr:nth-child(even) {
+    background-color: #e0e9f5;
+  }
+
+tr:first-child th:first-child {
+    border-top-left-radius: 1rem;
+}
+tr:first-child th:last-child {
+    border-top-right-radius: 1rem;
+}
+tr:last-child td:first-child {
+    border-bottom-left-radius: 1rem;
+}
+tr:last-child td:last-child {
+    border-bottom-right-radius: 1rem;
+}
+
+th,
+td {
+    border: 1px solid var(--gray-color);
+    padding: 1%;
+}
+
+thead {
+    background: var(--lightblue-color);
+    color: white;
+}
+
+tbody {
+    background: white;
+}
+
+.left .infodetail {
+    font-weight: normal;
+}
+
+.right .infodetail {
+    font-weight: normal;
+    margin-left: 5rem;
+}
+
+#statusupdate{
+    padding: 2%;
+    border: 1.5px solid var(--gray-color);
+    border-radius: 0.2rem;
+    margin-top: 0.5rem;
+}
+
+label{
+    margin-right: 1rem;
+}
+
+.statusmessage{
+    border: 1.5px solid #8FC641;
+    background: #cee1b1;
+    padding: 1.5%;
+    margin: 1rem 1rem 0rem 10%;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background: var(--blue-color);
+    color: white;
+    padding: 2% 6% 2% 6%;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: all .2s ease;
+    width: 37%;
+    margin-left: auto;
+}
+
+button:hover{
+    background: #2b7ada;
+}
+
+.statusform{
+    display: flex;
+    flex-direction: column;
+}
+
+.statusupdate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
